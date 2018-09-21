@@ -11,4 +11,4 @@ app.get('/', (req, res) => (
   res.sendFile(join(__dirname, 'build', 'index.html'))
 ));
 
-app.listen(process.env.port || 8787);
+app.listen(process.env.port || 8787, () => console.log('server started'));

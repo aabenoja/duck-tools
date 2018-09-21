@@ -4,12 +4,16 @@
   "private": true,
   "proxy": "http://localhost:8787",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5"
   },
   "scripts": {
+    "heroku-prebuild": "yarn build",
+    "server": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
