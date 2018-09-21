@@ -12,7 +12,7 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "heroku-prebuild": "yarn build",
+    "heroku-prebuild": "npm run build",
     "server": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
